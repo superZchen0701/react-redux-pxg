@@ -124,7 +124,6 @@ class Home extends Component {
   
 
   render() {
-    
     return (
       <main className="home-container">
         <PublicHeader title='首页' record />

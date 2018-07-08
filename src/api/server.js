@@ -19,8 +19,7 @@ export default class Server {
   axios(method, url, params){
     return new Promise((resolve, reject) => {
       if(typeof params !== 'object') params = {};
-      let _option = params;
-      _option = {
+      let _option = {
         method,
         url,
         baseURL: envconfig.baseURL,
